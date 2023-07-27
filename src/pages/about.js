@@ -10,6 +10,9 @@ import Education from "@/components/Education";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
 
+/* eslint-disable react/no-unescaped-entities */
+
+
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
   const motionValue = useMotionValue(0);
