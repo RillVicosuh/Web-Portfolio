@@ -67,7 +67,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
         <Link
           href={link}
           target={"_blank"}
-          className="underline-offset-2 hover:underline"
+          className="underline-offset-2 hover:underline text-dark dark:text-light"
         >
           <h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
             {title}
@@ -146,7 +146,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
         <Link
           href={github}
           target={"_blank"}
-          className="underline-offset-2 hover:underline"
+          className="underline-offset-2 hover:underline text-dark dark:text-light"
         >
           <h2 className="my-2 w-full text-left text-4xl font-bold lg:text-3xl xs:text-2xl">
             {title}
