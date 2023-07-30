@@ -104,11 +104,11 @@ export default function About() {
                 priority
               />
             </div>
-            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row 
+            <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 flex-wrap
             xl:items-center md:order-3">
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  +<AnimatedNumberFramerMotion value={100} />
+              <div className="flex flex-col items-end justify-center xl:items-center mb-4">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl text-dark dark:text-light">
+                  +<AnimatedNumberFramerMotion className="text-dark dark:text-light" value={100} />
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
@@ -116,8 +116,8 @@ export default function About() {
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+              <div className="flex flex-col items-end justify-center xl:items-center mb-4">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl text-dark dark:text-light">
                   +<AnimatedNumberFramerMotion value={89} />
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -126,8 +126,8 @@ export default function About() {
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+              <div className="flex flex-col items-end justify-center xl:items-center mb-4">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl text-dark dark:text-light">
                   +<AnimatedNumberFramerMotion value={90} />
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -136,8 +136,8 @@ export default function About() {
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+              <div className="flex flex-col items-end justify-center xl:items-center mb-4">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl text-dark dark:text-light ">
                   +<AnimatedNumberFramerMotion value={1000} />
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
