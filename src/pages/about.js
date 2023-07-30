@@ -67,17 +67,17 @@ export default function About() {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark dark:text-light">
                 ABOUT ME
               </h2>
-              <p className="font-medium text-light dark:text-dark">
+              <p className="font-medium text-dark dark:text-light">
                 Get so good that you can't be ignored. That's what Kobe meant and that's the message I embody in every aspect of my life: software engineering, blockchain engineering, working out, diet, etc.
                 It's about putting in the necessary time and effort to get better, to conitinuously improve. It's not about winning a championship,
                 instead being able to put on a championship performance. That's where the thrill and fulfillment subsist.
               </p>
-              <p className="my-4 font-mediumtext-light dark:text-dark ">
+              <p className="my-4 font-medium text-dark dark:text-light ">
                 I believe being a great software engineer is more than just being great at writing code. It requires conceptualzing complex ideas and
                 solving problems. Of course it doesn't end there, which is why I've worked hard on my ability to communicate those ideas and solutions.
                 I always emphasize the importance of a team. As the proverb goes, "If you want to move fast, go alone; if you want to move far, go together."
               </p>
-              <p className="font-medium text-light dark:text-dark">
+              <p className="font-medium text-dark dark:text-light">
                 Whether I&apos;m working on an A.I., Full Stack, Blockchain, or other cutting-edge
                 project, I bring my commitment to excellence and
                 user-centered thinking to every challenge I take on. I look
