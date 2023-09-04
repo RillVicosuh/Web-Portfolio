@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import proj0 from "../../public/images/projects/aiPortal.png";
 import proj1 from "../../public/images/projects/nft-marketplace.png";
 import proj2 from "../../public/images/projects/stablecoin.jpg";
 import proj3 from "../../public/images/projects/ai-shipping5.jpg";
@@ -266,6 +267,17 @@ export default function Projects() {
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12">
+              <FeaturedProject
+                type=""
+                title="A.I. Character Creation Portal"
+                summary="In just one month, my project attracted over 100 active users. I achieved this by integrating OpenAI's API for real-time, customizable interactions with A.I. characters. To ensure efficient performance and future scalability, I employed a dual-database approach: PrismaDB for relational data and a specialized vector database for A.I. data storage. This optimized both read/write operations and scalability, making the platform both user-friendly and technically robust."
+                img={proj0}
+                link="https://www.zampai.com/"
+                github="https://github.com/RillVicosuh/zamp-ai"
+                techStack={['Typescript', 'MySQL', 'React', 'Next.js', 'Tailwind CSS', 'OpenAI API']}
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 type=""
