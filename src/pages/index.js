@@ -43,15 +43,15 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Hi there,"
+                text="Hi,"
                 className="!text-left !text-5xl xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl"
               />
               <AnimatedText
-                text="I'm Ricardo Villacana"
+                text="I'm Ricardo."
                 className="!text-left !text-5xl xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-4xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-                I recently completed of Bachelor of Science, majoring in Computer Science at the University of California, Riverside. I have a passion for all things technology, from software to blockchain engineering.
+                I recently completed of Bachelor of Science, majoring in Computer Science at the University of California, Riverside. I have a passion for all things technology, from software to blockchain engineering. My north star is using innovative technologies to promote human flourishing.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
