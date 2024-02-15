@@ -12,9 +12,7 @@ const Footer = () => {
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
 
         <div className="flex flex-row sm:flex-col items-center lg:py-2 text-dark dark:text-light">
-          Built with
-          <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;</span>
-          and thought by Ricardo Villacana
+          Built by Ricardo Villacana
         </div>
       </Layout>
     </footer>
