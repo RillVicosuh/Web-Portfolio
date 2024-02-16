@@ -65,9 +65,9 @@ const Experience = () => {
             position="Community Blockchain Moderator(Volunteer)"
             company="Impact Theory Studios"
             companyLink="https://Impacttheory.com"
-            time="Aug 2022 - May 2023"
+            time="Aug 2022 - Present"
             address="Los Angeles, CA"
-            work="In a volunteer role, I dedicated 12-15 hours weekly as a Community Moderator for Impact Theory Studios' 85,000+ member Discord server, an emerging web3 company. I played a pivotal role in the launch of Project Kyzen, a cutting-edge NFT-based game, providing key technical assistance during the implementation of the avatar creation portal. Regularly engaged in troubleshooting user queries and technical issues, I leveraged my blockchain and NFT expertise to foster a seamless user experience. This role further developed my communication and problem-solving skills in a fast-paced, blockchain-driven environment, reinforcing my capacity to handle user concerns and enhance community engagement."
+            work="In a volunteer role, I dedicate 12-15 hours weekly as a Community Moderator for Impact Theory Studios' 85,000+ member Discord server, an emerging web3 company. I played a pivotal role in the launch of Project Kyzen, a cutting-edge NFT-based game, providing key technical assistance during the implementation of the avatar creation portal. I regularly engage in troubleshooting user queries and technical issues, I leverage my blockchain and NFT expertise to foster a seamless user experience. This role further developed my communication and problem-solving skills in a fast-paced, blockchain-driven environment, reinforcing my capacity to handle user concerns and enhance community engagement."
           />
 
         </ul>
