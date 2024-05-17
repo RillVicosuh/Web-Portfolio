@@ -11,6 +11,7 @@ import proj2 from "../../public/images/projects/stablecoin.jpg";
 import proj3 from "../../public/images/projects/ai-shipping5.jpg";
 import proj4 from "../../public/images/projects/reddit-search.png";
 import proj5 from "../../public/images/projects/embedded-setup.png";
+import proj6 from "../../public/images/projects/fact-ai.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import YouTubeEmbed from '@/components/YoutubeEmbed';
 import TechBadge from '@/components/TechBadge';
@@ -270,8 +271,19 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type=""
+                title="A.I. Fact Extractor"
+                summary="Developed a platform for extracting a unique and malleable list of facts from documents based on user questions, improving document analysis and information retrieval processes. Implemented real-time data submission and processing using FastAPI and ReactJS for a smooth user experience. Utilized the OpenAI API for accurate and relevant fact extraction."
+                img={proj6}
+                link="http://factai-alb1-1373833785.us-east-2.elb.amazonaws.com/"
+                github="https://github.com/RillVicosuh/Facts_AI"
+                techStack={['Python', 'AWS', 'Docker', 'FastAPI', 'React', 'Tailwind CSS', 'OpenAI API']}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                type=""
                 title="A.I. Character Creation Portal"
-                summary="In just one month, my project attracted over 100 active users. I achieved this by integrating OpenAI's API for real-time, customizable interactions with A.I. characters. To ensure efficient performance and future scalability, I employed a dual-database approach: PrismaDB for relational data and a specialized vector database for A.I. data storage. This optimized both read/write operations and scalability, making the platform both user-friendly and technically robust."
+                summary="Constructed an innovative companion platform by integrating OpenAI's API for real-time, customizable interactions with A.I. characters. To ensure efficient performance and future scalability, I employed a dual-database approach: PrismaDB for relational data and a specialized vector database for A.I. data storage. This optimized both read/write operations and scalability, making the platform both user-friendly and technically robust."
                 img={proj0}
                 link="https://www.zampai.com/"
                 github="https://github.com/RillVicosuh/zamp-ai"
